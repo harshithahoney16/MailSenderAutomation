@@ -22,6 +22,11 @@ This is a test email sent from my Python script.
 Best regards,  
 Harshitha
 
+## Gmail App Password
+
+Enable 2-step verification in your Gmail settings.  
+Then generate an App Password and paste it in the `password` field in `mail_sender.py`.
+
 ## How to Run
 
 1. Put all 3 files in the same folder
@@ -32,4 +37,4 @@ Harshitha
 python mail_sender.py
 ```
 
-Note: Use your Gmail App Password in the script, not your regular password.
+Note: This uses Gmail's secure SMTP with SSL on port 465.
